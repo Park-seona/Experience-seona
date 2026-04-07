@@ -342,9 +342,9 @@ ul.nav {
   gap: 2.5rem;
 
   width: 100%;
-  max-width: 240px;
+  max-width: 200px;
 
-  aspect-ratio: 240 / 218;
+  aspect-ratio: 200 / 204;
   background-color: #fff;
   border: 1px solid #5642F1;
   border-radius: 20px;
