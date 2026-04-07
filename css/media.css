@@ -1,0 +1,137 @@
+/* ===== (PC -> Tablet까지) 768px 이후 ~ ===== */
+@media screen and (min-width: 768px) {
+  .mobile_menu_toggle {
+    display: none;
+  }
+  
+  #mobile-nav,
+  .menu-overlay {
+    display: none;
+  }
+}
+
+/* ===== 1200px 이하 ===== */
+@media screen and (max-width: 1200px) {
+    .main-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ===== 1024px 이하 (태블릿) ===== */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .main-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ===== 768px 이하 (모바일 큰 화면) ===== */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 80px 40px;
+    }
+
+    .topbar-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header {
+        grid-template-columns: auto 1fr auto;
+        height: 64px; 
+    }
+
+    header .mobile {
+        display: flex;
+        align-items: center;
+    }
+  
+    header .mobile button {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+  
+    .pc-nav {
+        display: none;
+    }
+
+    #mobile-nav header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #mobile-nav #close {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 1000;
+    }
+}
+
+/* ===== 480px 이하 (모바일) ===== */
+@media screen and (max-width: 480px) {
+  header {
+    grid-template-columns: auto 1fr auto;
+    height: 64px; 
+  }
+  
+  .pc-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    width: 100%;
+  }
+
+  #mobile-nav header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #mobile-nav #close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  #mobile-nav #close img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .mobile_menu_toggle {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .mobile_menu_toggle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .main-banner img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+}
