@@ -367,7 +367,7 @@ ul.nav {
     display: flex;
     gap: 30px;
     background-color: #fff;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 
@@ -404,7 +404,7 @@ ul.nav {
     gap: 30px;
     background-color: #fff;
     justify-content: flex-start;
-    padding: 49px 24px 24px 203px;
+    padding: 49px 24px 24px 20px;
     box-shadow: 0 0 12px #E8E6FF;
     border-radius: 12px 0 0 12px;
     position: relative;
