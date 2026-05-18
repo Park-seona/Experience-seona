@@ -279,7 +279,7 @@ ul.nav {
     display: flex;
     align-items: flex-start;
     width: 100%;
-    min-height: 1200px;
+    min-height: 1060px;
     background-color: #fff;
     position: relative;
 }
